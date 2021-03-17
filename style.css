@@ -11,11 +11,20 @@ div {
     background-color: white;
     font-family: arial;
     color: black;
-    width: 300px;
+    width: 475px;
     padding: 20px;
     border-radius: 25px;
-    position: fixed;
-    left: 0%;
-    top: 0%;
+    text-align: center;
 
 }
+footer {
+text-align: left;
+
+}
+form  { display: table;
+position: relative;
+left: 20%
+      }
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
